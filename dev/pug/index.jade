@@ -1,0 +1,14 @@
+extends layouts/template.jade
+
+block variables
+	- title="Главная страница"
+
+block content
+	.wrapper
+		include sections/header.jade
+
+		main.content
+			p 123 
+			p Hello world!
+
+	include sections/footer.jade
