@@ -1,5 +1,4 @@
-//@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,bold');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,bold');
 
 
 $width-left: 20px;
@@ -7,7 +6,6 @@ $width-right: 40px;
 
 //color var
 $color-white: #ffffff;
-$color-black: #180404;
 $color-gray: #3f3f3f;
 $color-red: #e18571;
 
@@ -28,10 +26,16 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	line-height: 1.35;
+	font-size: 40px;
   	font-weight: 300;
 }
 
 h3 {
   //font-weight: 900;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
 }

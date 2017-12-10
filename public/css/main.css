@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,bold");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,bold");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,8 +58,46 @@ h1 {
   font-weight: 900; }
 
 h2 {
-  font-size: 32px;
+  line-height: 1.35;
+  font-size: 40px;
   font-weight: 300; }
+
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+h1 {
+  color: #ffffff;
+  text-align: left;
+  margin: 220px 336px 0 162px;
+  font-weight: 400; }
+
+img {
+  width: 900px;
+  height: 592px;
+  margin: 100px 380px 0 160px; }
+
+h2.lost {
+  width: 900px;
+  height: 162px;
+  font-weight: bold;
+  text-align: left;
+  margin: 80px 380px 0 160px; }
+
+h2.company {
+  width: 900px;
+  height: 418px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 200px 380px 0 160px; }
+
+p.company {
+  padding-top: 30px; }
 
 .menu {
   width: 100%;
