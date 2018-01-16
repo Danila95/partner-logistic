@@ -11,6 +11,7 @@ $color-red: #e18571;
 
 //background-color var
 $background-color-blue: #050d1f;
+$background-color-yellow: #f6e297;
 
 html {
   font-family: "Roboto", sans-serif;
@@ -30,9 +31,18 @@ h2 {
 	font-size: 40px;
   	font-weight: 300;
 }
+h3.adress {
+  font-size: 13px;
+  color: $color-white;
+  line-height: 1.23;
+}
 
 h3 {
   //font-weight: 900;
+  font-size: 22px;
+  line-height: 1.59;
+  text-align: left;
+  color: $color-gray;
 }
 
 .content {
