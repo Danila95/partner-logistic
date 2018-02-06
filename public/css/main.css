@@ -119,13 +119,45 @@ h1.SafeStorage {
   padding: 90px 324px 0 80px;
   font-weight: 600; }
 
+.conteiner-SafeStorage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.all-description {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .description {
-  margin: 73px 720px 0 120px;
+  margin: 73px 0 0 120px;
   width: 520px;
   height: 226px; }
 
 p.description2 {
   padding-top: 20px; }
+
+p.description3 {
+  padding-top: 82px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #e18571; }
+
+.picture {
+  width: 579px;
+  height: 412px; }
+
+img.map {
+  width: 579px;
+  height: 412px;
+  margin: 73px 45px 81px 96px; }
 
 .menu {
   width: 100%;
